@@ -1,0 +1,22 @@
+{
+  "name": "sanderson-timesheet",
+  "version": "1.0.0",
+  "description": "A custom timesheet system",
+  "main": "./src/index.ts",
+  "scripts": {
+    "compile": "tsc && node ./www/index.js",
+    "dev": "nodemon -e ts --exec \"npm run compile\""
+  },
+  "keywords": [
+    "timesheet"
+  ],
+  "author": "Sanderson de A. Rocha <sanduba753@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "typescript": "^5.4.3"
+  }
+}
