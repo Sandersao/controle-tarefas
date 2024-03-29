@@ -4,8 +4,8 @@
   "description": "A custom timesheet system",
   "main": "./src/index.ts",
   "scripts": {
-    "compile": "tsc && node ./www/index.js",
-    "dev": "nodemon -e ts --exec \"npm run compile\""
+    "start": "tsc && node ./www/index.js",
+    "dev": "nodemon -e ts --exec \"npm start\""
   },
   "keywords": [
     "timesheet"

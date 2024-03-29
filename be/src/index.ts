@@ -1,8 +1,9 @@
-import route from "./infra/config/route";
+import server from "./infra/config/server";
+import route from "./infra/map/route";
 import AppService from "./infra/service/AppService";
 
 const appService = new AppService()
 
 route(appService.getApp())
 
-appService.start(8080)
+appService.start(server.port)
